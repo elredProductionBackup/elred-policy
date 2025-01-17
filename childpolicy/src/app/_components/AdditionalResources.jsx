@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Heading from "./Heading";
 import Link from "next/link";
@@ -9,8 +10,13 @@ const AdditionalResources = () => {
       <Heading heading={"Additional Resources"} />
       <ul className="list-disc pl-8 mt-4 leading-normal">
         {links?.map((link, index) => (
-          <li key={index} className="mb-2 ">
-            <Link href={link?.url} className="underline text-red-500">
+          <li key={index} className="mb-2">
+            <Link
+              href={link?.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-red-500"
+            >
               <span className="cursor-pointer">{link?.name}</span>
             </Link>
           </li>
