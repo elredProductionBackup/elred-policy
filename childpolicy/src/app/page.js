@@ -9,7 +9,7 @@ const Home = () => {
     router.push("/child-safety");
   }, [router]);
 
-  return null; // No need to render anything as the user is redirected
+  return null; 
 };
 
 export default Home;
