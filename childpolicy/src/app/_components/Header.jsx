@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <h1 className="text-center text-[26px] sm:text-[32px] font-semibold tracking-tight mt-6">
+      <h1 className="text-center sm:text-[32px] text-[26px] font-semibold tracking-tight mt-6">
         Child Safety Standards
       </h1>
       <p className="mt-5">
